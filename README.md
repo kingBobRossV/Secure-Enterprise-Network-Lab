@@ -41,6 +41,7 @@ Designed a segmented enterprise topology including User, Server, and Management 
 <img width="929" height="615" alt="0 Architecture Overview" src="https://github.com/user-attachments/assets/4e59ba38-97b0-47bd-9e05-3049c5687356" />
 
 
+
 *Ref 2: VLAN Configuration*
 
 Created VLANs for Users (VLAN 10), Servers (VLAN 20), and Management (VLAN 30). Assigned switch access ports appropriately and configured trunking between the switch and router.
@@ -48,6 +49,7 @@ Created VLANs for Users (VLAN 10), Servers (VLAN 20), and Management (VLAN 30). 
 <img width="444" height="389" alt="1 Switch Interface Configuration" src="https://github.com/user-attachments/assets/0c5c1765-661c-4791-9f81-33d7cad17a9a" />
 <img width="583" height="273" alt="2 VLAN Brief" src="https://github.com/user-attachments/assets/566d9c9e-600b-4b58-9777-0dd1a929e2b1" />
 <img width="534" height="209" alt="3 Interfaces Trunk" src="https://github.com/user-attachments/assets/aa92f76b-79cf-4115-80e9-fd3c363dace9" />
+
 
 
 *Ref 3: Inter-VLAN Routing (Router on a Stick)*
