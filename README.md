@@ -65,6 +65,10 @@ Applied extended ACLs to restrict traffic between VLANs. Allowed only necessary 
 
 <img width="637" height="180" alt="5 ACL Config" src="https://github.com/user-attachments/assets/ac18fcb3-863b-4806-8fcf-f9e27f971971" />
 <img width="517" height="113" alt="6 ACL Confirm" src="https://github.com/user-attachments/assets/cfef7907-d311-4ab6-af80-e97c448d4bc9" />
+
+Confirming that ACL is working as intended.  Used telnet for confirmation that HTTP/HTTPS specifically was working and nothing else since packet tracer doesn't allow pings to specific ports
+
+
 <img width="448" height="431" alt="7 ACL Working" src="https://github.com/user-attachments/assets/929cdac4-5fc7-46ab-91de-eb3791355686" />
 
 
