@@ -4,6 +4,8 @@
 
 The Secure Enterprise Network Lab project aimed to design and implement a segmented small-enterprise network with foundational security controls. The primary focus was to apply VLAN segmentation, inter-VLAN routing, and access control policies to reduce lateral movement and enforce least privilege across departments. This hands-on experience was designed to strengthen practical network security engineering skills and demonstrate secure architectural decision-making.
 
+Security controls were tested using simulated unauthorized access attempts. VLAN segmentation prevented lateral movement, ACL policies restricted inter-VLAN communication, port security limited unauthorized devices, and SSH-only management ensured encrypted administrative access.
+
 ### Skills Learned
 
 Practical implementation of VLAN-based network segmentation.
@@ -79,8 +81,30 @@ Disabled unused switch ports, implemented port security limiting MAC addresses p
 
 <p><img width="333" height="255" alt="10 Port security confirmation" src="https://github.com/user-attachments/assets/2ac62f0a-2ebf-485b-88d6-b89f7c83776e" /></p>
 
-<p><img width="178" height="188" alt="11 VTY Lines" src="https://github.com/user-attachments/assets/7cdf2402-ee9e-4f69-ab33-3cefade200c7" /></p>
+<p><img width="448" height="431" alt="7 ACL Working" src="https://github.com/user-attachments/assets/3d68cfbb-7b41-4057-a442-dd94e4818c37" /></p>
 
 *Ref 6: Security Validation*
 
 Performed connectivity testing to confirm segmentation effectiveness and validated that unauthorized inter-VLAN communication was successfully blocked.
+
+Ping fails due to only http and https being allowed to webserver, Web search succeeds.
+
+<p><img width="446" height="352" alt="12 Ping failure" src="https://github.com/user-attachments/assets/6606fb00-5186-4f71-b295-c6c28335c2ec" /></p>
+
+<p><img width="768" height="324" alt="13 HTTP working" src="https://github.com/user-attachments/assets/67ac2d13-f26e-455f-880c-050fe5a79b17" /></p>
+
+Connecting a new pc to a port to test port security is working
+
+<p><img width="928" height="631" alt="14 New connection to port" src="https://github.com/user-attachments/assets/7274d965-b424-4608-ad72-33e5412415cf" /></p>
+
+<p><img width="714" height="287" alt="15 Port security" src="https://github.com/user-attachments/assets/786b2e6a-a51b-4b1f-9382-1a1780c18b42" /></p>
+
+<p><img width="446" height="255" alt="16 Confirm port security blocked port" src="https://github.com/user-attachments/assets/222b7381-a08f-4685-818b-1eb1e188e64b" /></p>
+
+Ping/SSH from User PC fails but succeeds from Management PC confirming Management Plane is configured properly
+
+<p><img width="517" height="580" alt="17 Users PC SSH Failure" src="https://github.com/user-attachments/assets/bde2fab7-3e96-4a53-bc7d-d710d1b8b85a" /></p>
+
+<p><img width="687" height="724" alt="18 Management PC SSH Success" src="https://github.com/user-attachments/assets/223abf90-57b0-4470-b22f-9ce837ef191f" /></p>
+
+
